@@ -7,7 +7,7 @@ data "aws_ssm_parameter" "cathay-ami" {
 }
 
 resource "aws_instance" "name" {
-  # use the value provided by data block
+  # use the value provided by data block1
   ami = data.aws_ssm_parameter.cathay-ami.value
   # use the value provided by the modules ouput
   instance_type     = var.instance-type
