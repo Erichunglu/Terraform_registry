@@ -1,6 +1,6 @@
 variable "region" {
   type = string
-#  default = "us-east-1"
+
 }
 variable "instance-type" {
   type    = string
@@ -12,9 +12,9 @@ variable "instance-count" {
 }
 variable "instance-az" {
   type = string
-#  default = "us-east-1a"
+
 }
 variable "server-name" {
   type = string
-#  default = "test-1"
+
 }
