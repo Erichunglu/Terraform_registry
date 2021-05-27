@@ -2,7 +2,7 @@ provider "aws" {
   region = var.region
 }
 
-#version 1.0.3
+#version 1.0.4
 
 data "aws_ssm_parameter" "cathay-ami" {
   name = "/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2"
